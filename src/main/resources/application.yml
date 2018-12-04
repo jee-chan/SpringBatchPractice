@@ -1,0 +1,8 @@
+spring.batch.job.enabled: false
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring-batch
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
